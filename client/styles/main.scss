@@ -1,0 +1,249 @@
+html{
+  font-size: 10px;
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+p{
+  color: white;
+}
+
+h1, h2, h3, h4, li{
+  color: black;
+}
+
+
+body{
+  min-width: 80rem;
+  background: #bfb5b5;
+  padding: 5rem 0;
+  font-family: Arvo;
+  margin: 0;
+  .message-box{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15rem 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.4);
+    .inner-message-box{
+      h3{
+        margin: 1rem 0;
+      }
+      border: solid .5px black;
+      font-size: 2rem;
+      max-width: 40rem;
+      background: #d8d1ff;
+      margin:auto;
+      padding: 2rem;
+      opacity: .95;
+    }
+    h1, h2, h3, h4, li, p{
+      color: black;
+    }
+  }
+  .ad-column{
+    display: inline-block;
+    width: 25rem;
+    height: 60rem;
+    background: red;
+  }
+}
+
+
+
+#mail-to-form{
+  .mail-to-element{
+    height: 3rem;
+    margin-right: 1rem;
+    width: 24rem;
+    margin: 1rem 0;
+    display: block;
+  }
+  #mail-to-button{
+    height: 3rem;
+    display: block;
+  }
+  #mail-to-message{
+    height: 6rem;
+  }
+}
+
+#content{
+  text-align: center;
+}
+
+#main-content{
+  vertical-align: top;
+  margin: auto;
+  text-align: left;
+  padding: 0 4rem;
+  min-width: 122rem;
+  display: inline-block;
+  .editor-wrapper{
+    display: inline-block;
+    background: white;
+    margin-right: 0;
+    position: relative;
+    margin-left: 0;
+    vertical-align: top;
+    width: 40rem;
+    text-align: left;
+    .editor-menu{
+      border: solid .5px black;
+      position: absolute;
+      left: -4rem;
+      background: white;
+      .menu-icon{
+        display: block;
+        margin: 1rem;
+      }
+      .editor-menu-popup{
+        width: 100px;
+        height: 100px;
+        background: white;
+        position: absolute;
+        right: 14rem;
+        border: solid .5px black;
+      }
+      #upl, #srt-upl{
+        cursor: pointer;
+        height: 0.1px;
+        width: 0.1px;
+        position: absolute;
+        left: -1000rem;
+      }
+    }
+    .editor-table{
+      padding: .3rem;
+      border: solid .5px black;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      max-height: 29.3rem;
+      table{
+        margin: 0;
+        .sub-text{
+          width: 20rem;
+        }
+        td{
+          input{
+            font-size: 1.2rem;
+            font-weight: bold;
+            width: 7rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.warning-highlight{
+  background-color: #FA5858;
+  border: solid 1px black;
+}
+
+#header{
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  text-align: left;
+  background: #f3f3f3;
+  #header-menu-wrapper{
+    padding: 0 2rem;
+  }
+  ul{
+    padding: 0 1rem;
+    float: none;
+    margin: 0;
+    display: inline-block;
+    line-height: 1.8;
+    li{
+      font-size: 2rem;
+      cursor: pointer;
+      margin: 0 1rem;
+      display: inline-block;
+    }
+  }
+  h2{
+    display: inline-block;
+    margin: auto;
+    font-size: 3rem;
+  }
+  #header-banner{
+    height: 0rem;
+  }
+  .formWrapper{
+    float: right;
+    h3{
+      margin: 0;
+      display: inline-block;
+    }
+  }
+}
+
+.player-module-wrapper{
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  width: 60rem;
+  text-align: right;
+  position: relative;
+  display: inline-block;
+  .player-wrapper{
+    margin: auto;
+    video{
+      max-width: 60rem;
+      min-width: 60rem;
+      max-height: 29.3rem;
+      background: black;
+    }
+  }
+  label{
+    background: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    position: absolute;
+    left: -6rem;
+    top: 0;
+    border: solid .5px black;
+    i{
+      margin: 1rem;
+    }
+  }
+}
+
+
+
+.hidden{
+  display: none;
+}
+
+.showing{
+  display: block;
+}
+
+.highlight{
+  background: #caecca;
+}
+
+.hoverHelper{
+  font-size: 1.5rem;
+  background: #caecca;
+  border: solid .5px black;
+  position: absolute;
+  height: auto;
+
+  width: 200px;
+  padding: 1rem 3rem;
+  text-align: center;
+  p{
+    color: black;
+    margin: 0;
+    line-height: 1;
+  }
+}
